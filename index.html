@@ -34,11 +34,48 @@
         <header>
           <h2>Starting with HTML</h2>
         </header>
+        <p>The code for a basic HTML page that is technically correct and reasonably interesting might look as follows:</p>
+<pre>
+<code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;My First Web Page&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello, world!&lt;/h1&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code>
+</pre>
+        <p>This will display the text "My First Web Page" in the title bar and a "Hello, world!" heading in the browser window.</p>
+        <p>Note the HTML tags used in the code. These are the sets of pointy brackets with the text inside. HTML tags define the structure of the web page, including HTML elements like headings, text, images, links, and buttons.</p>
+        <p>The first tag is the <code>&lt;!DOCTYPE html&gt;</code> declaration, which declares to browsers and search engines that the page is to be interpreted as a HTML 5 page.</p>
+        <p>Most of the tags come in opening and closing pairs. For example, the tag on the second line is <code>&lt;html&gt;</code>, an opening tag that tells browsers and search engines that the HTML document has begun. The last tag is <code>&lt;/html&gt;</code>, a closing tag that tells that the HTML document has ended. Within these two tags is the rest of the HTML document. When one tag is enclosed within another tag we say it is <em>nested</em> within the tag.</p>
+        <p>The title of the web page is enclosed in opening and closing tags: <code>&lt;title&gt;</code> and <code>&lt;/title&gt;</code>. The page heading is declared between the <code>&lt;h1&gt;</code> and <code>&lt;/h1&gt;</code> opening and closing tags. Each of these sets of tags defines a HTML element. HTML elements can have context, like text or even other nested HTML elements. The entire structure of a web page can be defined using only a few lines of HTML. Let's do that now.</p>
       </section>
       <section class="main-section" id="Write_Your_Own_HTML">
         <header>
           <h2>Write Your Own HTML</h2>
         </header>
+        <p>In order to write your own HTML file, all you need is a basic text editor, like Notepad, Nano, <a href="https://notepad-plus-plus.org/">Notepad++</a>, or even something fancier like <a href="https://code.visualstudio.com/">VS Code</a>. You also need the ability to give .html extensions to files.</p>
+        <p>If you are using Windows 10 then file extensions are hidden by default. To view them, go into Explorer, select View from the menu, and ensure that <samp>File Name Extensions</samp> is ticked. If you are using Linux then file name extensions should be visible by default.</p>
+        <p>Now that you can see the file name extension, you can change it. A web page ends in the .html extension, so if you create a new text document you can simply rename it to something.html, where something is the name of your web page. The standard name for a website homepage is index.html, but you can name your file whatever you like so long as it ends in .html.</p>
+        <p>Open your file in a text editor (like Windows' Notepad) and type out a basic HTML skeleton document to write your first web page.</p>
+<pre>
+<code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;My First Web Page&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello, world!&lt;/h1&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code>
+</pre>
+        <p>Save the HTML document, and then view it in a web browser (such as Microsoft Edge, Google Chrome, or Mozilla Firefox). You can do this in Windows by dragging your HTML file from Explorer into a web browser window. If everything has worked according to plan, you should be viewing your first HTML web page! If you wish, you can change the text contents of the <code>&lt;title&gt;</code> element or the <code>&lt;h1&gt;</code> element to change the text displayed in the browser tab and the browser page respectively.</p>
       </section>
       <section class="main-section" id="The_HTML_Document">
         <header>

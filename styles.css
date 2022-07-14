@@ -45,6 +45,10 @@ main {
   padding-right: 10px;
 }
 
+footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
 /* Extra small devices (phones, 600px and down) */
 /*@media only screen and (max-width: 600px) {
 }*/
@@ -78,6 +82,14 @@ main {
 
   main {
     margin-left: 20vw;
+  }
+
+  footer {
+    margin-left: 20vw;
+  }
+
+  footer p:first-child {
+    display: none;
   }
 }
   

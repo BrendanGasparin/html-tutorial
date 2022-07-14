@@ -40,6 +40,11 @@ nav a, nav a:visited, nav a:hover, nav a:after {
   padding: 1.8vh 0 1.8vh 10px;
 }
 
+main {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 /* Extra small devices (phones, 600px and down) */
 /*@media only screen and (max-width: 600px) {
 }*/
@@ -73,8 +78,6 @@ nav a, nav a:visited, nav a:hover, nav a:after {
 
   main {
     margin-left: 20vw;
-    padding-left: 10px;
-    padding-right: 10px;
   }
 }
   

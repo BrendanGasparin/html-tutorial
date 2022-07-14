@@ -122,11 +122,20 @@
         <header>
           <h2>Images</h2>
         </header>
+        <p>As exciting as text and headings and hyperlinks are, we may wish to add images and other multimedia to brighten up our web pages.</p>
+        <p>Images may be added to web pages using the <code>&lt;img&gt;</code> element. Unlike most of the tags we has seen so far, image elements do not have closing tags. There is only one tag in an &lt;img&gt; element, which closes itself. This is called a self-closing tag. It is good practice to end a closing tag with a space and a forward slash to close the tag, although this is not necessary.</p>
+        <code>&lt;img src="doge.jpg" alt="A smiling dog" /&gt;</code>
+        <p>Image elements also have attributes, which we have seen but not really discussed. Attributes are key and value pairs added to an opening tag to represent additional information or modify the behaviour of a corresponding element. The href and src attributes are examples of this. If more than one attribute is specified in an element, the order in which they are specified does not matter. HTML attribute values are always enclosed in double quotes.</p>
+        <p>There are two important attributes for the &lt;img&gt; tag: src and alt. Source, or src, is the URL of the image to be displayed. This can be a location on the Internet, or, if you are the only person you care about viewing your webpage, it can also be a location on your hard drive like a folder or your desktop. If the location of your HTML file and your image file are the same (e.g. they are in the same folder) then you do not need to provide a path to your file and can give only the filename as the src attribute. Otherwise you can provide a relative or absolute path (discussed later).</p>
+        <p>The alt tag is equally important, as it used for accessibility and devices like screen readers, which will read the alt text as an image description to visually impaired users. Alt text will also display if the image fails to load. Alt text should be descriptive and provide an alternative to the actual viewing of the image as far as making sense of your web page content is concerned.</p>
       </section>
       <section class="main-section" id="Your_First_Project">
         <header>
           <h2>Your First Project</h2>
         </header>
+        <p>Now is the time to make your first project! "What am I going to make?" you might ask. You can make anything, from an informational page, to a book or movie review, to a short story, or you could even make a joke page. You just need to decide on a subject, type out the HTML template, give it a &lt;title&gt;, and fill in the &lt;body&gt; element with hierarchical headings and paragraphs. Include links and images where you see fit, but try to include at least one of each so you can practice your skills.</p>
+        <p>Remember for the sake of simplicity, if you keep all of your HTML files and images in the same directory, then you can reference them in &lt;a&gt; or &lt;img&gt; tags simply by using the filenames as attribute values (without having to include the full path to the files). If you need a reminder on how a HTML document or any of the elements work, remember to refer back to this guide.</p>
+        <p>Happy coding!</p>
       </section>
     </main>
   </body>

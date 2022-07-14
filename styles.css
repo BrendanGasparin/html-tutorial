@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-code {
+code, samp {
   font-size: 1.1em;
 }
 

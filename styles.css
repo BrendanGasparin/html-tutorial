@@ -47,6 +47,8 @@ main {
 
 footer {
   border-top: 1px solid rgba(0, 0, 0, 0.5);
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -80,11 +82,7 @@ footer {
     border-left: 0;
   }
 
-  main {
-    margin-left: 20vw;
-  }
-
-  footer {
+  main, footer p {
     margin-left: 20vw;
   }
 

@@ -104,6 +104,19 @@
         <header>
           <h2>Hyperlinks</h2>
         </header>
+        <p>Combined with out basic HTML template, headings, and paragraphs, we already have the ability to write basic web pages with categorised information in them. But the "HT" in HTML stands for hypertext. Hypertext is text that links to other texts. This is one of the essential concepts that drives and makes the World Wide Web possible, and is one of the things that makes it so powerful. The ability for text to link to other text transforms web pages from linear documents into interactive information linked in a World Wide Web that spans the entire Internet.</p>
+        <p>To put a hyperlink on the page we use the anchor tag <code>&lt;a&gt;</code> enclosing the text that will become our link. For example, here is a link to Google:</p>
+        <code>&lt;p&gt;Here is a link to &lt;a href="https://www.google.com"&gt;Google&lt;/a&gt;.&lt;/p&gt;</code>
+        <p>The text enclosed by the anchor tag is now a link. Here, The href attribute of the anchor tag is set to the web address (or URL) of the page which we will be the destination of our link. This may be an absolute address or a relative address, which we will discuss soon. For now, know that if you want to link to another page in the same directory as your original HTML file, you can link it simply by including the destination page's file name as the href attribute. e.g.</p>
+        <code>&lt;p&gt;This link goes to a &lt;a href="secondpage.html"&gt;second page&lt;/a&gt;.&lt;/p&gt;</code>
+        <p>We can also link to areas on the current web page, as long as they have unique id attributes. This is done by using a hash symbol followed by the id of the target element to which we wish to link.</p>
+<pre>
+<code>&lt;p&gt;This link takes you further &lt;a href="#link"&gt;down the page&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="link"&gt;This heading is the destination of the above link.&lt;/h2&gt;</code>
+</pre>
+        <p>Note that you can set a link to open in a new tab by giving it the target attribute with a value of _blank. e.g.</p>
+        <code>Here is a link to &lt;a href="https://www.youtube.com"&gt;YouTube&lt;/a&gt;.&lt;/p&gt;</code>
+        <p>Links can be used to enclose things other than text content, such as headings or images, thereby turning those elements into clickable links.</p>
       </section>
       <section class="main-section" id="Images">
         <header>
